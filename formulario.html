@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title> 
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="normallize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mobile.css">    
+
+</head>
+<body>
+    <!--Aca empieza el navbar-->
+    <nav class="navBar fadeInDown">
+        <div class="brandImage"><img src="logo.png" alt="Logo de la marca"></div>
+        <div class="navOptions ">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#products">Producto y Descripcion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Aca acaba el navbar-->
+
+    <!--Aca empieza el formulario-->
+    <div class="container">
+        <div class="row">
+            <div class="col4">
+                <div class="moduloPago">
+                    <div class="pagoImages">
+                        <img src="box2.png" alt="b1" >
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos en el mercado, pero nada como una caja de gatitos</p>
+                </div>  
+            </div>
+            
+            <div class="col8">
+                <div class="moduloPago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZWW2ARN97Y5YQ" method="post">
+                            <label for="nombre">Nombre</label>
+                            <br>
+                            <input type="text" placeholder="" name="first_name" > 
+                            <br>
+                            <br>
+                            <label for="mail">Correo Electronico</label>
+                            <br>
+                            <input type="text" placeholder="" name="email">
+                            <br>  
+                            <br>               
+                            <label for="nigh_phone_a">Telefono</label>
+                            <br>
+                            <input type="text" name="phone" placeholder="">
+                            <br>
+                            <br>
+                            <input type="submit" class="mainButton" name="submit" value="Confirmar Pago">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Aca acaba el formulario-->

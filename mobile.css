@@ -1,0 +1,26 @@
+@media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+        }
+    .mainSection, .boxes{
+        padding: 3%;
+    }
+    .atributo, .boxes{
+        display: inherit;
+    }
+    .atributoDetalle{
+        max-width: 9999px
+    }
+    
+    .box{
+        width: auto;
+    }
+    .row{
+        display: inherit;
+    }
+    
+}

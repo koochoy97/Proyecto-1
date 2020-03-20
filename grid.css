@@ -1,0 +1,46 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col1{
+    width: 8.333333333333333%;
+}
+.col2{
+    width: 16.66666666666667%;
+}
+.col3{
+    width: 25%;
+}
+.col4{
+    width: 33.333333333%;
+}
+.col5{
+    width: 41.666666667%;
+}
+.col6{
+    width: 50%;
+}
+.col7{
+    width: 58.333333333%;
+}
+.col8{
+    width: 75%;
+}
+.col9{
+    width: 2,133.333333333333%;
+}
+.col10{
+    width: 83.333333333%;
+}
+.col11{
+    width: 91.666666667%;
+}
+.col12{
+    width: 100%;
+}
+
